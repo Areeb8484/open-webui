@@ -1,4 +1,4 @@
-import base64
+﻿import base64
 import io
 import json
 import logging
@@ -42,7 +42,7 @@ def search_yandex(
 ) -> List[SearchResult]:
     try:
         headers = {
-            'User-Agent': 'Open WebUI (https://github.com/open-webui/open-webui) RAG Bot',
+            'User-Agent': 'Areeb AI (https://github.com/open-webui/open-webui) RAG Bot',
             'Authorization': f'Api-Key {yandex_search_api_key}',
         }
 

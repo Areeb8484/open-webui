@@ -1,4 +1,4 @@
-import base64
+﻿import base64
 import os
 import random
 from pathlib import Path
@@ -16,7 +16,7 @@ def version_callback(value: bool) -> None:
     if value:
         from open_webui.env import VERSION
 
-        typer.echo(f'Open WebUI version: {VERSION}')
+        typer.echo(f'Areeb AI version: {VERSION}')
         raise typer.Exit()
 
 

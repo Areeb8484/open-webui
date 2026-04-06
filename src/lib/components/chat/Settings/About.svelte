@@ -1,4 +1,4 @@
-<script lang="ts">
+﻿<script lang="ts">
 	import { getVersionUpdates } from '$lib/apis';
 	import { getOllamaVersion } from '$lib/apis/ollama';
 	import { WEBUI_BUILD_HASH, WEBUI_VERSION } from '$lib/constants';
@@ -114,7 +114,7 @@
 
 		{#if $config?.license_metadata}
 			<div class="mb-2 text-xs">
-				{#if !$WEBUI_NAME.includes('Open WebUI')}
+				{#if !$WEBUI_NAME.includes('Areeb AI')}
 					<span class=" text-gray-500 dark:text-gray-300 font-medium">{$WEBUI_NAME}</span> -
 				{/if}
 
@@ -157,7 +157,7 @@
 				class="text-xs text-gray-400 dark:text-gray-500">Copyright (c) {new Date().getFullYear()} <a
 					href="https://openwebui.com"
 					target="_blank"
-					class="underline">Open WebUI Inc.</a
+					class="underline">Areeb AI Inc.</a
 				> <a href="https://github.com/open-webui/open-webui/blob/main/LICENSE" target="_blank"
 					>All rights reserved.</a
 				>

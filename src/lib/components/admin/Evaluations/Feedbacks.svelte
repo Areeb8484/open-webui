@@ -1,4 +1,4 @@
-<script lang="ts">
+﻿<script lang="ts">
 	import { toast } from 'svelte-sonner';
 	import fileSaver from 'file-saver';
 	const { saveAs } = fileSaver;
@@ -97,7 +97,7 @@
 	};
 
 	const shareHandler = async () => {
-		toast.success($i18n.t('Redirecting you to Open WebUI Community'));
+		toast.success($i18n.t('Redirecting you to Areeb AI Community'));
 
 		// remove snapshot from feedbacks
 		const feedbacksToShare = feedbacks.map((f) => {

@@ -1,4 +1,4 @@
-<script lang="ts">
+﻿<script lang="ts">
 	import { getContext, onMount, tick } from 'svelte';
 	import { toast } from 'svelte-sonner';
 	import { config, models, settings, user } from '$lib/stores';
@@ -428,7 +428,7 @@
 			keywords: [
 				'about app',
 				'about me',
-				'about open webui',
+				'about Areeb AI',
 				'about page',
 				'about us',
 				'aboutapp',

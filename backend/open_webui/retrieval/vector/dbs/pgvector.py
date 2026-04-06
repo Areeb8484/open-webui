@@ -1,4 +1,4 @@
-from typing import Optional, List, Dict, Any, Tuple
+﻿from typing import Optional, List, Dict, Any, Tuple
 import logging
 import json
 from sqlalchemy import (
@@ -219,7 +219,7 @@ class PgvectorClient(VectorDBBase):
                 f"Existing pgvector index '{index_name}' uses method '{existing_method}' but configuration now "
                 f"requires '{index_method}'. Automatic rebuild is disabled to prevent long-running maintenance. "
                 'Drop the index manually (optionally after tuning maintenance_work_mem/max_parallel_maintenance_workers) '
-                'and recreate it with the new method before restarting Open WebUI.'
+                'and recreate it with the new method before restarting Areeb AI.'
             )
 
         if not existing_index_def:

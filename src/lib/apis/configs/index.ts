@@ -1,4 +1,4 @@
-import { WEBUI_API_BASE_URL, WEBUI_BASE_URL } from '$lib/constants';
+﻿import { WEBUI_API_BASE_URL, WEBUI_BASE_URL } from '$lib/constants';
 import type { Banner } from '$lib/types';
 
 export const importConfig = async (token: string, config) => {
@@ -268,7 +268,7 @@ export const detectTerminalServerType = async (
 
 /**
  * Create or update a policy on the orchestrator.
- * Proxied through the Open WebUI backend to keep API keys server-side.
+ * Proxied through the Areeb AI backend to keep API keys server-side.
  */
 export const putOrchestratorPolicy = async (
 	token: string,

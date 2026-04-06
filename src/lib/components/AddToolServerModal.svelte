@@ -1,4 +1,4 @@
-<script lang="ts">
+﻿<script lang="ts">
 	import { v4 as uuidv4 } from 'uuid';
 
 	import fileSaver from 'file-saver';
@@ -914,7 +914,7 @@
 								{$i18n.t('Warning')}:
 							</span>
 							{$i18n.t(
-								'MCP support is experimental and its specification changes often, which can lead to incompatibilities. OpenAPI specification support is directly maintained by the Open WebUI team, making it the more reliable option for compatibility.'
+								'MCP support is experimental and its specification changes often, which can lead to incompatibilities. OpenAPI specification support is directly maintained by the Areeb AI team, making it the more reliable option for compatibility.'
 							)}
 
 							<a

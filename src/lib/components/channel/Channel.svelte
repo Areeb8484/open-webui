@@ -1,4 +1,4 @@
-<script lang="ts">
+﻿<script lang="ts">
 	import { toast } from 'svelte-sonner';
 	import { Pane, PaneGroup, PaneResizer } from 'paneforge';
 
@@ -288,10 +288,10 @@
 					} else {
 						return e.name;
 					}
-				}, '')} • Open WebUI</title
+				}, '')} • Areeb AI</title
 		>
 	{:else}
-		<title>#{channel?.name ?? 'Channel'} • Open WebUI</title>
+		<title>#{channel?.name ?? 'Channel'} • Areeb AI</title>
 	{/if}
 </svelte:head>
 

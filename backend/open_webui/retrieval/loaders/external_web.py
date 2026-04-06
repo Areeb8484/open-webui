@@ -1,4 +1,4 @@
-import requests
+﻿import requests
 import logging
 from typing import Iterator, List, Union
 
@@ -30,7 +30,7 @@ class ExternalWebLoader(BaseLoader):
                 response = requests.post(
                     self.external_url,
                     headers={
-                        'User-Agent': 'Open WebUI (https://github.com/open-webui/open-webui) External Web Loader',
+                        'User-Agent': 'Areeb AI (https://github.com/open-webui/open-webui) External Web Loader',
                         'Authorization': f'Bearer {self.external_api_key}',
                     },
                     json={
