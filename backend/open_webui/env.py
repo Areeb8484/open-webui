@@ -125,6 +125,8 @@ if 'cuda_error' in locals():
 
 SRC_LOG_LEVELS = {}  # Legacy variable, do not remove
 
+WEBUI_NAME = os.getenv("WEBUI_NAME", "Areeb AI")
+
 WEBUI_FAVICON_URL = 'https://openwebui.com/favicon.png'
 
 TRUSTED_SIGNATURE_KEY = os.environ.get('TRUSTED_SIGNATURE_KEY', '')
