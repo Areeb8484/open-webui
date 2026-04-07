@@ -1143,6 +1143,10 @@ TERMINAL_SERVER_CONNECTIONS = PersistentConfig(
 
 WEBUI_URL = PersistentConfig('WEBUI_URL', 'webui.url', os.environ.get('WEBUI_URL', ''))
 
+CHECK_FOR_UPDATES = False
+SHOW_CHANGELOG = False
+ENABLE_CHANGELOG = False
+
 
 ENABLE_SIGNUP = PersistentConfig(
     'ENABLE_SIGNUP',
